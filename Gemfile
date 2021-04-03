@@ -1,12 +1,16 @@
 source 'https://rubygems.org'
-ruby '2.7.2'
+ruby '2.5.7'
 
 gem 'rails', '~> 6.0'
 gem 'pg', '~> 0.21'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
+<<<<<<< HEAD
 gem 'mini_racer', '~> 0.3'
 gem 'activerecord', '>= 6.0.3.5'
+=======
+gem 'therubyracer'
+>>>>>>> parent of 34dbefd (Merge pull request #4 from themarshallproject/master)
 
 gem 'dotenv'
 gem 'jquery-rails'
@@ -29,7 +33,7 @@ gem 'httparty'
 gem 'diffy'
 gem 'kramdown'
 
-gem 'aws-sdk-sqs', '~> 1.35'
+gem 'aws-sdk-sqs', '~> 1.30'
 
 group :development, :test do
   gem 'byebug'

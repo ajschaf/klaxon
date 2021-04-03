@@ -2,8 +2,7 @@
 
 # run klaxon startup commands
 cd /usr/src/app
-bundle exec rake db:create || true
-bundle exec rake db:migrate || true
+bundle exec rake db:create db:migrate || true
 bundle exec rake users:create_admin || true
 
 

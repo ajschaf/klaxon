@@ -45,6 +45,4 @@ Rails.application.configure do
 
   # Set host to localhost specifically to override AppSetting
   Rails.application.routes.default_url_options = { host: ENV['HOST'] }
-
-  config.hosts << "klaxon.test"
 end

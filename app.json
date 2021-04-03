@@ -5,7 +5,6 @@
   "website": "https://github.com/themarshallproject/klaxon",
   "repository": "https://github.com/themarshallproject/klaxon",
   "success_url": "/",
-  "stack": "heroku-20",
   "scripts": {
     "postdeploy": "bash ./postdeploy.sh"
   },
